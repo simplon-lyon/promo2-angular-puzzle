@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { PieceDirective } from './shared/piece.directive';
+import { JeuComponent } from './jeu/jeu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PieceDirective,
+    JeuComponent
   ],
   imports: [
     BrowserModule,
